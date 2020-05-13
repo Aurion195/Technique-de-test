@@ -31,7 +31,10 @@ Nompre passée| Entier attendu | Entier sortit| Test
 Dans ce test nous devons vérifier s'il est possible de : 
 
 * se connecter sans connaître un user, si c'est possible indiquer avec "lequel" vous vous connecter 
-* se connecter en tant que ealbert  oui il est possile de se connecter sans connaitre un 'user' avec l'injection suivante : SELECT * FROM user WHERE login = (SELECT login FROM USER where ID = 1 ) --  en suposant que l'user 'ealbert' existe dans la base avec effectuant un injectionSQL il est probablement possible de connecter en mettant dans '$_POST['password']  1=1 -- '
+* se connecter en tant que ealbert  oui il est possile de se connecter sans connaitre un 'user' avec l'injection suivante : 
+* SELECT
+* FROM user
+* WHERE login = (SELECT login FROM USER where ID = 1 ) --  en suposant que l'user 'ealbert' existe dans la base avec effectuant un injectionSQL il est probablement possible de connecter en mettant dans '$_POST['password']  1=1 -- '
 
 # Troisième partie
 Nous avons coder une application qui simuler une partie de Pierre Feuille Ciseaux, la fonction à tester et determinerVainqueur(char P1, char P2) ;
