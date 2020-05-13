@@ -55,8 +55,8 @@ Avec cette table de matrice nous avons put créer la méthode determinerVainqueu
 Joueur 1 | Joueur 2 | Resultat Attendu| Resultat Obtenu| Test
 :---|:---|:---|:---|:---
 P| P| 0| 0| :white_check_mark:
-P| F| 2| 2| white_check_mark:
-P| C| 1| 1| white_check_mark:
+P| F| 2| 2| :white_check_mark:
+P| C| 1| 1| :white_check_mark:
 F| P| 1| 1| :white_check_mark:
 F| F| 0| 0| :white_check_mark:
 F| C| 2| 2| :white_check_mark:
